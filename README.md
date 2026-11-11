@@ -4,7 +4,7 @@
 
 ## 构建与运行
 
-以下命令适用于 Linux/WSL，使用支持 C++17 的 Clang。它们直接编译仓库内已有的解析器，覆盖当前 `main.cpp` 使用的 AST → ARM 路径：
+在仓库根目录执行以下命令，适用于 Linux/WSL，使用支持 C++17 的 Clang。它们直接编译仓库内已有的解析器，覆盖当前 `main.cpp` 使用的 AST → ARM 路径：
 
 ```sh
 mkdir -p build
